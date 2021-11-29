@@ -1,0 +1,62 @@
+
+body {
+background-color: #e30b5d;
+font-family: 'Tourney', cursive;
+color: whitesmoke;
+}
+h1{
+  font-size: 72px;
+  text-align: center;
+}
+#yeah, #nooo:img{
+width: 50%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#overflow1{
+  width: 25%;
+  position: fixed;
+  left: 20px;
+  -webkit-animation: floatBubble rotation 5s infinite  normal ease-out;
+  animation: floatBubble 5s infinite  normal ease-out;
+}
+
+#overflow2{
+  width: 25%;
+  position: fixed;
+  right: 20px;
+  -webkit-animation: floatBubble 5s infinite  normal ease-out;
+  animation: floatBubble 5s infinite  normal ease-out;
+}
+
+
+@-webkit-keyframes floatBubble {
+  0% {
+      top:1000px;
+      transform: rotate(0deg);
+  }
+  100% {
+      top: -800px;
+      transform: rotate(359deg);
+  }
+}
+@keyframes floatBubble {
+  0% {
+    top:1000px;
+    transform: rotate(0deg);
+}
+100% {
+    top: -800px;
+    transform: rotate(359deg);
+}
+}
+/* @media (min-width: 600px) {
+
+  img{
+    width: 100%;
+  }
+} */
